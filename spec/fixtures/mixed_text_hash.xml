@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US09537659-20170103.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20161219" date-publ="20170103">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>09537659</doc-number>
+<kind>B2</kind>
+<date>20170103</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>14015072</doc-number>
+<date>20130830</date>
+</document-id>
+</application-reference>
+<us-application-series-code>14</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>371</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>H</section>
+<class>04</class>
+<subclass>L</subclass>
+<main-group>9</main-group>
+<subgroup>32</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20170103</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>H</section>
+<class>04</class>
+<subclass>L</subclass>
+<main-group>29</main-group>
+<subgroup>06</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20170103</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>H</section>
+<class>04</class>
+<subclass>L</subclass>
+<main-group>9</main-group>
+<subgroup>3236</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20170103</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>H</section>
+<class>04</class>
+<subclass>L</subclass>
+<main-group>63</main-group>
+<subgroup>0807</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20170103</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<invention-title id="d2e53">Authenticating a user device to access services based on a device ID</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>8607306</doc-number>
+<kind>B1</kind>
+<name>Bridge</name>
+<date>20131200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>H04L 63/068</classification-cpc-text>
+<classification-national><country>US</country><main-classification>726  1</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>2002/0169961</doc-number>
+<kind>A1</kind>
+<name>Giles</name>
+<date>20021100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>G06F 21/6218</classification-cpc-text>
+<classification-national><country>US</country><main-classification>713175</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>2005/0060553</doc-number>
+<kind>A1</kind>
+<name>Allen</name>
+<date>20050300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>H04L 63/0869</classification-cpc-text>
+<classification-national><country>US</country><main-classification>713182</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>2007/0094503</doc-number>
+<kind>A1</kind>
+<name>Ramakrishna</name>
+<date>20070400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>H04L 9/0822</classification-cpc-text>
+<classification-national><country>US</country><main-classification>713172</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>2007/0154016</doc-number>
+<kind>A1</kind>
+<name>Nakhjiri</name>
+<date>20070700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>H04L 63/06</classification-cpc-text>
+<classification-national><country>US</country><main-classification>380270</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>2010/0088752</doc-number>
+<kind>A1</kind>
+<name>Nagulakonda</name>
+<date>20100400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>H04L 9/3226</classification-cpc-text>
+<classification-national><country>US</country><main-classification>726  6</main-classification></classification-national>
+</us-citation>
+</us-references-cited>
+<number-of-claims>20</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-cpc-text>H04L 9/3236</classification-cpc-text>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>8</number-of-drawing-sheets>
+<number-of-figures>8</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20150067328</doc-number>
+<kind>A1</kind>
+<date>20150305</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only" applicant-authority-category="assignee">
+<addressbook>
+<orgname>Verizon Patent and Licensing Inc.</orgname>
+<address>
+<city>Basking Ridge</city>
+<state>NJ</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Yin</last-name>
+<first-name>Fenglin</first-name>
+<address>
+<city>Lexington</city>
+<state>MA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>VERIZON PATENT AND LICENSING INC.</orgname>
+<role>02</role>
+<address>
+<city>Basking Ridge</city>
+<state>NJ</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Najjar</last-name>
+<first-name>Saleh</first-name>
+<department>2492</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Kanaan</last-name>
+<first-name>Simon</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A first device may receive a first session token from a second device; determine that the first session token is expired or invalid; provide a security input to the second device to cause the second device to generate a first hash value of the security input using a key corresponding to a key identifier (ID); receive the key ID and the first hash value from the second device; generate a second hash value using the key corresponding to the key ID; determine that the first hash value matches the second hash value; and establish a session with the second device based on determining that the first hash value matches the second hash value.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="146.90mm" wi="200.66mm" file="US09537659-20170103-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="200.49mm" wi="145.54mm" orientation="landscape" file="US09537659-20170103-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="231.48mm" wi="167.98mm" orientation="landscape" file="US09537659-20170103-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="223.52mm" wi="159.43mm" orientation="landscape" file="US09537659-20170103-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="228.77mm" wi="166.96mm" orientation="landscape" file="US09537659-20170103-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="239.69mm" wi="155.36mm" orientation="landscape" file="US09537659-20170103-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="155.02mm" wi="145.71mm" orientation="landscape" file="US09537659-20170103-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="221.32mm" wi="134.87mm" file="US09537659-20170103-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="203.62mm" wi="170.26mm" orientation="landscape" file="US09537659-20170103-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">BACKGROUND</heading>
+<p id="p-0002" num="0001">User devices can be used to access services (e.g., video/audio streaming services, or the like) based on providing a service provider with authentication information (e.g., login information, password information, etc.). Providing the authentication information can be an inconvenient process, thereby limiting the user's experience. Providing access without authentication information, or with authentication information that can be stolen (e.g., account numbers, or the like) can pose security risks and allow unauthorized users to access the services.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0002" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0003" num="0002"><figref idref="DRAWINGS">FIG. 1</figref> illustrates an example overview of an implementation described herein;</p>
+<p id="p-0004" num="0003"><figref idref="DRAWINGS">FIG. 2</figref> illustrates an example environment in which systems and/or methods, described herein, may be implemented;</p>
+<p id="p-0005" num="0004"><figref idref="DRAWINGS">FIG. 3</figref> illustrates example components of a device that may be used within the environment of <figref idref="DRAWINGS">FIG. 2</figref>;</p>
+<p id="p-0006" num="0005"><figref idref="DRAWINGS">FIG. 4</figref> illustrates a call flow diagram of example operations capable of being performed by an example portion of the environment of <figref idref="DRAWINGS">FIG. 2</figref>;</p>
+<p id="p-0007" num="0006"><figref idref="DRAWINGS">FIG. 5</figref> illustrates an example data structure that may be stored by one or more devices in the environment of <figref idref="DRAWINGS">FIG. 2</figref>;</p>
+<p id="p-0008" num="0007"><figref idref="DRAWINGS">FIG. 6</figref> illustrates an example data structure that may be stored by one or more devices in the environment of <figref idref="DRAWINGS">FIG. 2</figref>;</p>
+<p id="p-0009" num="0008"><figref idref="DRAWINGS">FIG. 7</figref> illustrates a flowchart of an example process for generating a session token and establishing a session with a user device; and</p>
+<p id="p-0010" num="0009"><figref idref="DRAWINGS">FIG. 8</figref> illustrates an example implementation as described herein.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0003" level="1">DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS</heading>
+<p id="p-0011" num="0010">The following detailed description refers to the accompanying drawings. The same reference numbers in different drawings may identify the same or similar elements.</p>
+<p id="p-0012" num="0011">Systems and/or methods, as described herein, may extend accessibility of a content delivery service (e.g., a service that may provide video content, audio content, or the like) to a user device (e.g., a device that may connect to a service provider network, such as a cellular network, to communicate with other client devices and/or other user devices).</p>
+<p id="p-0013" num="0012">In some implementations, the user device may access the content delivery service based on a universal integrated circuit card identifier (UICCID) and/or some other identifier of the user device without providing login information, thereby streamlining the user's experience when accessing the content delivery service. Further, the user device may access the content delivery service using a private key accessible only by the user device and a content delivery service provider, such that the content delivery service may not be accessed using the UICCID alone, thereby keeping the content delivery service secure from unauthorized users who may determine UICCIDs linked to the content delivery service.</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 1</figref> illustrates an example overview of an implementation described herein. In <figref idref="DRAWINGS">FIG. 1</figref>, assume that a user is subscribed to a content delivery service and that the content delivery service may be accessed via a platform server. Further, assume that a UICCID of a user device has been linked to the content delivery service. Further, assume that the user device requests to access the content delivery service via the platform server (e.g., to receive content, modify account information, modify subscription information, etc.). Given these assumptions, the platform server may provide the user device with a security input, such as a random number, a nonce value, a salt value, and/or some other value.</p>
+<p id="p-0015" num="0014">In some implementations, the user device may leverage a bootstrapping process, used to connect the user device to a service provider network (e.g., a cellular network), to receive authentication information from a bootstrapping server, such as a home subscriber server (HSS)/authentication, authorization, accounting (AAA) server. For example, the user device may receive information identifying a key (e.g., a key ID). In some implementations, the user device may select a particular key, stored by the user device, based on the key ID. In some implementations, the key may be used to generate a hash value of the security input provided by the platform server.</p>
+<p id="p-0016" num="0015">In some implementations, the platform server may receive the hash value from the user device, and may exchange authentication information with the HSS/AAA server. For example, the platform server may receive the key ID from the user device, provide the key ID to the HSS/AAA server, and may receive the key corresponding to the key ID from the HSS/AAA server. In some implementations, the platform server may generate a hash value of the security input using the key received from the HSS/AAA server.</p>
+<p id="p-0017" num="0016">In some implementations, the platform server may validate that the hash value, generated by the user device, matches the hash value generated by the platform server. Further, the platform server may store a list of UICCIDs that are associated with the content delivery service and may determine that the UICCID of the user device is associated with the content delivery service based on the list. In some implementations, the platform server may provide a session token, based on validating that the hash value, generated by the user device, matches the hash value generated by the platform server and based on determining that the UICCID of the user device is associated with the content delivery service. In some implementations, the user device may use the session token to request a session with the platform server to access the content delivery service. In some implementations, the platform server may establish a session with the user device based on receiving the session token. As a result, the user device may access a content delivery service without providing login information. Further, the content delivery service may remain secure from unauthorized users who may have knowledge of the UICCID of a user device that may be associated with a content delivery service subscription.</p>
+<p id="p-0018" num="0017">While systems and/or methods are described in terms of accessing a platform server to access a content delivery service, the systems and/or methods are not so limited. For example, the systems and/or methods may be used to access another type of server to access some other service, in addition to or excluding a content delivery service.</p>
+<p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 2</figref> is a diagram of an example environment <b>200</b> in which systems and/or methods described herein may be implemented. As shown in <figref idref="DRAWINGS">FIG. 2</figref>, environment <b>200</b> may include user devices <b>210</b>, . . . , <b>210</b>-M (where M&#x2267;1), a base station <b>220</b>, a serving gateway <b>230</b> (referred to as &#x201c;SGW <b>230</b>&#x201d;), a mobility management entity device <b>240</b> (referred to as &#x201c;MME <b>240</b>&#x201d;), a packet data network (PDN) gateway (PGW) <b>250</b> (referred to as &#x201c;PGW <b>250</b>&#x201d;), a home subscriber server (HSS)/authentication, authorization, accounting (AAA) server <b>260</b> (referred to as an &#x201c;HSS/AAA server <b>260</b>&#x201d;), a platform server <b>270</b>, a content server <b>280</b>, and a network <b>290</b>.</p>
+<p id="p-0020" num="0019">Environment <b>200</b> may include an evolved packet system (EPS) that includes a long term evolution (LTE) network and/or an evolved packet core (EPC) that operate based on a third generation partnership project (3GPP) wireless communication standard. The LTE network may be a radio access network (RAN) that includes one or more base stations, such as eNodeBs (eNBs), via which user device <b>210</b> communicates with the EPC. The EPC may include SGW <b>230</b>, MME <b>240</b>, and/or PGW <b>250</b> and may enable user device <b>210</b> to communicate with network <b>290</b> and/or an Internet protocol (IP) multimedia subsystem (IMS) core. The IMS core may include HSS/AAA server <b>260</b> and may manage authentication, connection initiation, account information, a user profile, etc. associated with user device <b>210</b>. As shown in <figref idref="DRAWINGS">FIG. 2</figref>, the LTE network may include base station <b>220</b>, and the EPC may include SGW <b>230</b>, MME <b>240</b>, and/or PGW <b>250</b>.</p>
+<p id="p-0021" num="0020">User device <b>210</b> may include a computation or communication device, such as a wireless mobile communication device that is capable of communicating with a cellular network via base station <b>220</b>. In some implementations, user device <b>210</b> may communicate with another network (e.g., network <b>290</b>) via base station <b>220</b>. For example, user device <b>210</b> may include a radiotelephone, a personal communications system (PCS) terminal (e.g., that may combine a cellular radiotelephone with data processing and data communications capabilities), a personal digital assistant (PDA) (e.g., that can include a radiotelephone, a pager, Internet/intranet access, etc.), a smart phone, a laptop computer, a tablet computer, a personal gaming system, a desktop computer, or another type of computation or communication device. In some implementations, user device <b>210</b> may include a communication interface, having a UICCID and/or some other identifier, used to connect to base station <b>220</b>. User device <b>210</b> may send data to and/or receive data from network <b>290</b>.</p>
+<p id="p-0022" num="0021">In some implementations, a content delivery service account may be linked to an account of user device <b>210</b>. For example, a user of user device <b>210</b> may access a web portal to add the content delivery service account to the account of user device <b>210</b>. In some implementations, user device <b>210</b> may access platform server <b>270</b> (e.g., to access a content delivery service) based on the UICCID and based on a hash value of a security input generated using a shared key stored by user device <b>210</b> and accessible to platform server <b>270</b> (e.g., a key stored by HSS/AAA server <b>260</b> that may be received by platform server <b>270</b>). In some implementations, user device <b>210</b> may access the content delivery service via platform server <b>270</b> without user device <b>210</b> needing to provide login information.</p>
+<p id="p-0023" num="0022">Base station <b>220</b> may include one or more network devices that receive, process, and/or transmit traffic, such as audio, video, text, and/or other data, destined for and/or received from user device <b>210</b>. In an example implementation, base station <b>220</b> may be an eNB device and may be part of the LTE network. Base station <b>220</b> may receive traffic from and/or send traffic to network <b>290</b> via SGW <b>230</b> and PGW <b>250</b>. Base station <b>220</b> may send traffic to and/or receive traffic from user device <b>210</b> via an air interface. One or more of base stations <b>220</b> may be associated with a RAN, such as the LTE network.</p>
+<p id="p-0024" num="0023">SGW <b>230</b> may include one or more network devices, such as a gateway, a router, a modem, a switch, a firewall, a network interface card (NIC), a hub, a bridge, a proxy server, an optical add-drop multiplexer (OADM), or some other type of device that processes and/or transfers traffic. SGW <b>230</b> may, for example, aggregate traffic received from one or more base stations <b>220</b> and may send the aggregated traffic to network <b>290</b> via PGW <b>250</b>. In one example implementation, SGW <b>230</b> may route and forward user data packets, may act as a mobility anchor for a user plane during inter-eNB handovers, and may act as an anchor for mobility between LTE and other 3GPP technologies.</p>
+<p id="p-0025" num="0024">MME <b>240</b> may include one or more network devices that perform operations associated with a handoff to and/or from the EPS. MME <b>240</b> may perform operations to register user device <b>210</b> with the EPS, to handoff user device <b>210</b> from the EPS to another network, to handoff a user device <b>210</b> from the other network to the EPS, and/or to perform other operations. MME <b>240</b> may perform policing operations for traffic destined for and/or received from user device <b>210</b>. MME <b>240</b> may authenticate user device <b>210</b> (e.g., via interaction with HSS/AAA server <b>260</b>).</p>
+<p id="p-0026" num="0025">PGW <b>250</b> may include one or more network devices, such as a gateway, a router, a modem, a switch, a firewall, a NIC, a hub, a bridge, a proxy server, an OADM, or some other type of device that processes and/or transfers traffic. PGW <b>250</b> may, for example, provide connectivity of user device <b>210</b> to external packet data networks by being a traffic exit/entry point for user device <b>210</b>. PGW <b>250</b> may perform policy enforcement, packet filtering, charging support, lawful intercept, and/or packet screening. PGW <b>250</b> may also act as an anchor for mobility between 3GPP and non-3GPP technologies.</p>
+<p id="p-0027" num="0026">HSS/AAA server <b>260</b> may include one or more computing devices, such as a server device or a collection of server devices. In some implementations, HSS/AAA server <b>260</b> may manage, update, and/or store, in a memory associated with HSS/AAA server <b>260</b>, profile information associated with user device <b>210</b> that identifies applications and/or services that are permitted for and/or accessible by user device <b>210</b> (e.g., content delivery services that user device <b>210</b> may access based on a UICCID of user device <b>210</b>), billing information for access to the services, bandwidth or data rate thresholds associated with the applications or services, information associated with a user of user device <b>210</b> (e.g., a username, a password, a personal identification number (PIN), etc.), rate information, telephone call minutes allowed, and/or other information. Additionally, or alternatively, HSS/AAA server <b>260</b> may include a device that performs authentication, authorization, and/or accounting (AAA) operations associated with a communication connection with user device <b>210</b> (e.g., in connection with a bootstrapping process to authorize user device <b>210</b> to connect to base station <b>220</b>). For example, HSS/AAA server <b>260</b> may include a bootstrapping server that may store a list of IP Multimedia Private Identity (IMPI) numbers corresponding to UICCIDs. In some implementations, HSS/AAA server <b>260</b> may authorize user device <b>210</b> to access the IMS core (e.g., to access content delivery services) based on the IMPI of user device <b>210</b>.</p>
+<p id="p-0028" num="0027">In some implementations, HSS/AAA server <b>260</b> may store a key shared with user device <b>210</b>. For example, the shared key may be stored by a UICC of user device <b>210</b> and by HSS/AAA server <b>260</b>. In some implementations, the shared key may be used to generate a hash value of a security input provided by platform server <b>270</b>. In some implementations, HSS/AAA server <b>260</b> may authorize platform server <b>270</b> to receive the shared key to allow platform server <b>270</b> to generate a hash value using the shared key.</p>
+<p id="p-0029" num="0028">Platform server <b>270</b> may include one or more computing devices, such as a server device or a collection of server devices. In some implementations, platform server <b>270</b> may provide access to a content delivery service. Additionally, or alternatively, platform server <b>270</b> may store content delivery service account information for a user, a UICCID for a user device <b>210</b> that may access the content delivery service, login information that may be used to access the content delivery service, subscription information, billing information, usage information, content delivery history information, and/or some other information regarding a content delivery service account. In some implementations, platform server <b>270</b> may provide access to content server <b>280</b> to allow user device <b>210</b> to receive content from content server <b>280</b>.</p>
+<p id="p-0030" num="0029">In some implementations, platform server <b>270</b> may provide a session token to user device <b>210</b> and may establish a session to provide access to the content delivery service based on receiving and validating the session token (e.g., validating the session token is unexpired and that the session token is authentic). Additional details regarding the issuance and validation of session tokens are described below with respect to <figref idref="DRAWINGS">FIG. 4</figref>.</p>
+<p id="p-0031" num="0030">Content server <b>280</b> may include one or more computing devices, such as a server device or a collection of server devices. In some implementations, content server <b>280</b> may store content (e.g., audio content, video content, documents, images, or the like) and may provide the content to user device <b>210</b> and/or client device <b>215</b>. In some implementations, content server <b>280</b> may be accessible via a session between user device <b>210</b> and platform server <b>270</b>.</p>
+<p id="p-0032" num="0031">Network <b>290</b> may include one or more wired and/or wireless networks. For example, network <b>290</b> may include a cellular network (e.g., a second generation (2G) network, a third generation (3G) network, a fourth generation (4G) network, a fifth generation (5G) network, a long-term evolution (LTE) network, a global system for mobile (GSM) network, a code division multiple access (CDMA) network, an evolution-data optimized (EVDO) network, or the like), a public land mobile network (PLMN), and/or another network. Additionally, or alternatively, network <b>290</b> may include a local area network (LAN), a wide area network (WAN), a metropolitan network (MAN), a telephone network (e.g., the Public Switched Telephone Network (PSTN)), an ad hoc network, a managed IP network, a virtual private network (VPN), an intranet, the Internet, a fiber optic-based network, and/or a combination of these or other types of networks.</p>
+<p id="p-0033" num="0032">The quantity of devices and/or networks, illustrated in <figref idref="DRAWINGS">FIG. 2</figref>, is not limited to what is shown. In practice, there may be additional devices and/or networks; fewer devices and/or networks; different devices and/or networks; or differently arranged devices and/or networks than illustrated in <figref idref="DRAWINGS">FIG. 2</figref>. Also, in some implementations, one or more of the devices of environment <b>200</b> may perform one or more functions described as being performed by another one or more of the devices of environment <b>200</b>. Devices of environment <b>200</b> may interconnect via wired connections, wireless connections, or a combination of wired and wireless connections.</p>
+<p id="p-0034" num="0033"><figref idref="DRAWINGS">FIG. 3</figref> illustrates example components of a device <b>300</b> that may be used within environment <b>200</b> of <figref idref="DRAWINGS">FIG. 2</figref>. Device <b>300</b> may correspond to user device <b>210</b>, client device <b>215</b>, base station <b>220</b>, SGW <b>230</b>, MME <b>240</b>, PGW <b>250</b>, HSS/AAA server <b>260</b>, platform server <b>270</b>, and/or content server <b>280</b>. Each of user device <b>210</b>, client device <b>215</b>, base station <b>220</b>, SGW <b>230</b>, MME <b>240</b>, PGW <b>250</b>, HSS/AAA server <b>260</b>, platform server <b>270</b>, and/or content server <b>280</b> may include one or more devices <b>300</b> and/or one or more components of device <b>300</b>.</p>
+<p id="p-0035" num="0034">As shown in <figref idref="DRAWINGS">FIG. 3</figref>, device <b>300</b> may include a bus <b>305</b>, a processor <b>310</b>, a main memory <b>315</b>, a read only memory (ROM) <b>320</b>, a storage device <b>325</b>, an input device <b>330</b>, an output device <b>335</b>, and a communication interface <b>340</b>.</p>
+<p id="p-0036" num="0035">Bus <b>305</b> may include a path that permits communication among the components of device <b>300</b>. Processor <b>310</b> may include a processor, a microprocessor, an application specific integrated circuit (ASIC), a field programmable gate array (FPGA), or another type of processor that interprets and executes instructions. Main memory <b>315</b> may include a random access memory (RAM) or another type of dynamic storage device that stores information or instructions for execution by processor <b>310</b>. ROM <b>320</b> may include a ROM device or another type of static storage device that stores static information or instructions for use by processor <b>310</b>. Storage device <b>325</b> may include a magnetic storage medium, such as a hard disk drive, or a removable memory, such as a flash memory.</p>
+<p id="p-0037" num="0036">Input device <b>330</b> may include a component that permits an operator to input information to device <b>300</b>, such as a control button, a keyboard, a keypad, or another type of input device. Output device <b>335</b> may include a component that outputs information to the operator, such as a light emitting diode (LED), a display, or another type of output device. Communication interface <b>340</b> may include any transceiver-like component that enables device <b>300</b> to communicate with other devices or networks. In some implementations, communication interface <b>340</b> may include a wireless interface, a wired interface, or a combination of a wireless interface and a wired interface.</p>
+<p id="p-0038" num="0037">Device <b>300</b> may perform certain operations, as described in detail below. Device <b>300</b> may perform these operations in response to processor <b>310</b> executing software instructions contained in a computer-readable medium, such as main memory <b>315</b>. A computer-readable medium may be defined as a non-transitory memory device. A memory device may include memory space within a single physical storage device or memory space spread across multiple physical storage devices.</p>
+<p id="p-0039" num="0038">The software instructions may be read into main memory <b>315</b> from another computer-readable medium, such as storage device <b>325</b>, or from another device via communication interface <b>340</b>. The software instructions contained in main memory <b>315</b> may direct processor <b>310</b> to perform processes that will be described later. Alternatively, hardwired circuitry may be used in place of or in combination with software instructions to implement processes described herein. Thus, implementations described herein are not limited to any specific combination of hardware circuitry and software.</p>
+<p id="p-0040" num="0039">In some implementations, device <b>300</b> may include additional components, fewer components, different components, or differently arranged components than are shown in <figref idref="DRAWINGS">FIG. 3</figref>.</p>
+<p id="p-0041" num="0040"><figref idref="DRAWINGS">FIG. 4</figref> illustrates a call flow diagram of example operations capable of being performed by an example portion <b>400</b> of environment <b>200</b>. As shown in <figref idref="DRAWINGS">FIG. 4</figref>, portion <b>400</b> may include user device <b>210</b>, HSS/AAA server <b>260</b>, and platform server <b>270</b>. User device <b>210</b>, HSS/AAA server <b>260</b>, and/or platform server <b>270</b> may include components and/or perform functions described above in connection with, for example, one or more of <figref idref="DRAWINGS">FIGS. 1-3</figref>. <figref idref="DRAWINGS">FIG. 4</figref> may correspond to example operations to establish a session between user device <b>210</b> and platform server <b>270</b> to provide user device <b>210</b> with access to a content delivery service via platform server <b>270</b>.</p>
+<p id="p-0042" num="0041">As shown in <figref idref="DRAWINGS">FIG. 4</figref>, user device <b>210</b> may provide session token <b>405</b> to platform server <b>270</b> (e.g., as an input to a session request with platform server <b>270</b>). In some implementations, session token <b>405</b> may include a session identifier, an expiry timestamp, idle expiry time period, an encrypted session key, an encrypted secure storage, and/or a value stored by the secure storage. In some implementations, the value stored by the secure storage may include a value generated based on an input parameter (e.g., a private key associated with platform server <b>270</b> and/or some other parameter) and an algorithm (e.g., a hash-based message authentication code (HMAC) algorithm, or some other algorithm). Some examples of a session identifier (ID), an expiry timestamp, idle expiry time period, an encrypted session key, an encrypted secure storage, and a value stored by the secure storage are later described with respect to <figref idref="DRAWINGS">FIG. 5</figref>.</p>
+<p id="p-0043" num="0042">In some implementations, platform server <b>270</b> may receive session token <b>405</b> and may initiate session token authentication function <b>410</b> to authentication session token <b>405</b> (e.g., to determine whether session token <b>405</b> is authentic and/or valid and to determine whether user device <b>210</b> is authorized to communicate with platform server <b>270</b>). For example, platform server <b>270</b> may authenticate session token <b>405</b> by determining that session token <b>405</b> is unexpired. Additionally, or alternatively, platform server <b>270</b> may authenticate session token <b>405</b> by calculating a value and determining that the calculated value matches the value stored by the secure storage of session token <b>405</b>. Additionally, or alternatively, platform server <b>270</b> may authenticate session token <b>405</b> using some other technique.</p>
+<p id="p-0044" num="0043">In some implementations, platform server <b>270</b> may determine whether session token <b>405</b> is unexpired by comparing a local time at which session token <b>405</b> was received with the expiry timestamp of the session token. Additionally or alternatively, platform server <b>270</b> may determine whether session token <b>405</b> is expired by comparing a time period in which session token <b>405</b> was last received by platform server <b>270</b> with the idle expiry time period associated with session token <b>405</b>. For example, assume that session token <b>405</b> was received on 1/1/01 at 13:00:00 and on 1/1/01 at 13:05:00. Platform server <b>270</b> may determine a time period of 5 minutes and compare the determined time period with the idle expiry time period and identify whether the determined time period exceeds the idle expiry time period.</p>
+<p id="p-0045" num="0044">Additionally or alternatively, platform server <b>270</b> may calculate a value associated with session token <b>405</b>. For example, platform server <b>270</b> may calculate the value based on input parameters (e.g., the session identifier, expiry timestamp, session key, and/or some other parameter) associated with session token <b>405</b> and an algorithm. In some implementations, the algorithm used to calculate the value may be based on a cryptographic hash function, an HMAC-MD5, an HMAC-SHA1, and/or some other type of algorithm.</p>
+<p id="p-0046" num="0045">As described above, platform server <b>270</b> may compare the calculated value with the value stored by the secure storage associated with session token <b>405</b>. In some implementations, session token <b>405</b> may include a session key (e.g., a random AES 128-bit key and/or some other key) encrypted by a public key, associated with platform server <b>270</b>. Platform server <b>270</b> may decrypt the session key using a private key associated with platform server <b>270</b>, and may use the decrypted session key to decrypt the secure storage associated with session token <b>405</b>. Additionally, platform server <b>270</b> may identify the value stored by the secure storage, based on decrypting the secure storage. As described above, platform server <b>270</b> may compare the calculated value with the value stored by the secure storage, and authenticate session token <b>405</b> based on identifying that the calculated value matches the value stored by the secure storage. In some implementations, platform server <b>270</b> may authenticate session token <b>405</b> using some other technique.</p>
+<p id="p-0047" num="0046">Based on authenticating session token <b>405</b>, platform server <b>270</b> may establish a session with user device <b>210</b> to allow user device <b>210</b> to access a content delivery service (e.g., to request to receive content, update account information associated with an account of the content delivery service, update subscription information, etc.). Additional details regarding establishing a session are described below with respect to established session <b>475</b>.</p>
+<p id="p-0048" num="0047">In some situations, platform server <b>270</b> may not authenticate session token <b>405</b> (e.g., by determining that session token <b>405</b> is expired and/or that the calculated value does not match the value stored by the secure storage associated with session token <b>405</b>). Based on platform server <b>270</b> failing to authenticate session token <b>405</b>, user device <b>210</b> may request another session token from platform server <b>270</b>. In some implementations (e.g., when platform server <b>270</b> does not authenticate session token <b>405</b>), platform server <b>270</b> may provide security input <b>415</b> and application ID <b>416</b> to user device <b>210</b>. In some implementations, security input <b>415</b> may include a nonce value, a randomly generated value, a salt value, and/or some other value. In some implementations, application ID <b>416</b> may include an ID of an application associated with the content delivery service (e.g., an application that user device <b>210</b> may use to communicate with platform server <b>270</b> to access the content delivery service).</p>
+<p id="p-0049" num="0048">In some implementations, user device <b>210</b> may receive security input <b>415</b> and application ID <b>416</b>. In some implementations, user device <b>210</b> may determine whether user device <b>210</b> is storing a key corresponding to the application ID and may determine whether the key is expired. For example, if user device <b>210</b> is storing an unexpired key corresponding to the application ID, user device <b>210</b> may perform hash value generation function <b>430</b> to generate a hash value of security input <b>415</b> using the key, as described in greater detail below. If, on the other hand, user device <b>210</b> does not store an unexpired key corresponding to the application ID, user device <b>210</b> may provide key ID request <b>420</b> to HSS/AAA server <b>260</b>.</p>
+<p id="p-0050" num="0049">In some implementations, key ID request <b>420</b> may include application ID <b>416</b>, an identifier of user device <b>210</b> (e.g., a UICCID, and/or some other ID of user device <b>210</b>), and a request for a key ID (e.g., information that identifies a particular key stored and shared by a UICC of user device <b>210</b> and by HSS/AAA server <b>260</b>). In some implementations, HSS/AAA server <b>260</b> may receive key ID request <b>420</b> and may select a key ID based on the app ID and the identifier of user device <b>210</b>. Some examples of selecting a particular key ID based on the app ID and the identifier of user device <b>210</b> are described below with respect to <figref idref="DRAWINGS">FIG. 6</figref>.</p>
+<p id="p-0051" num="0050">In some implementations, HSS/AAA server <b>260</b> may provide the key ID in key ID response <b>425</b> to user device <b>210</b>. In some implementations, key ID response <b>425</b> may include an expiry time period for a key corresponding to the key ID. In some implementations, user device <b>210</b> may select the key when the key ID is unexpired. As a result, user device <b>210</b> may select the key, corresponding to the key ID, such that the key may not need to be transmitted from HSS/AAA server <b>260</b> to user device <b>210</b> (e.g., to reduce the possibility of the key being received by an unauthorized device). Some examples of selecting a key corresponding to the key ID are described below with respect to <figref idref="DRAWINGS">FIG. 6</figref>. In some implementations, key ID request <b>420</b> and key ID response <b>425</b> may correspond to a bootstrapping function performed between user device <b>210</b> and HSS/AAA server <b>260</b>.</p>
+<p id="p-0052" num="0051">In some implementations, user device <b>210</b> may perform hash value generation function <b>430</b> to generate a hash value of security input <b>415</b>. For example, user device <b>210</b> may generate the hash value using the selected key, corresponding to the key ID, and using a hash generation algorithm. In some implementations, user device <b>210</b> may generate the hash value within the time period corresponding to the idle expiry time period in key ID response <b>425</b>. In some implementations, user device <b>210</b> may provide session token request <b>435</b> to platform server <b>270</b> to request a session token from platform server <b>270</b> based on generating the hash value. In some implementations, session token request <b>435</b> may include the hash value, an ID of user device <b>210</b>, and the key ID corresponding to the key used by user device <b>210</b> to generate the hash value. Additionally, session token request <b>435</b> may include a request to establish a session with platform server <b>270</b> (e.g., to access the service via platform server <b>270</b>), and for a session token that may later be used to request a session with platform server <b>270</b>.</p>
+<p id="p-0053" num="0052">In some implementations (e.g., based on receiving session token request <b>435</b>), platform server <b>270</b> may look up the key ID in a storage of platform server <b>270</b> and may determine whether platform server <b>270</b> is storing a key corresponding to the key ID. Further, platform server <b>270</b> may determine whether the key is expired or unexpired based on an expiry time period of the key. If platform server <b>270</b> is not storing a key corresponding to the key ID or if the key is expired, platform server <b>270</b> may provide key request <b>440</b> to HSS/AAA server <b>260</b>. In some implementations, key request <b>440</b> may include the key ID included in session token request <b>435</b> and a request to receive a key corresponding to the key ID. Additionally, or alternatively, key request <b>440</b> may include authorization information that HSS/AAA server <b>260</b> may use to authorize platform server <b>270</b> to receive the key.</p>
+<p id="p-0054" num="0053">In some implementations, HSS/AAA server <b>260</b> may receive key request <b>440</b> and may perform request authorization function <b>445</b> based on receiving key request <b>440</b>. For example, HSS/AAA server <b>260</b> may use the authorization information, included in key request <b>440</b> (e.g., a device ID of platform server <b>270</b>, a login ID, a password, a time-based token, a private key, or the like), to authorize platform server <b>270</b> to receive the key. Additionally, or alternatively, HSS/AAA server <b>260</b> may authorize platform server <b>270</b> to receive the key based on some other information. For example, HSS/AAA server <b>260</b> may authorize platform server <b>270</b> based on an IP address via which key request <b>440</b> was received, a certificate stored by platform server <b>270</b>, and/or based on some other information.</p>
+<p id="p-0055" num="0054">In some implementations, HSS/AAA server <b>260</b> may provide key response <b>450</b> based on authorizing platform server <b>270</b> to receive the key. In some implementations, key response <b>450</b> may include the key corresponding to the key ID. In some implementations, platform server <b>270</b> may store the key for future use such that platform server <b>270</b> may not need to request the key from HSS/AAA server <b>260</b>. In some implementations, key response <b>450</b> may further include a key expiry time period that identifies a length of time that the key may be valid when stored by platform server <b>270</b>. For example, assume that platform server <b>270</b> receives the key and stores the key on 1/1/01 at 10:00 and that the key expiry time period is 90 minutes. Further, assume that platform server <b>270</b> receives session token request <b>435</b> with a key ID, corresponding to the key stored by platform server <b>270</b>, before 1/1/01 at 11:30. Given these assumptions, platform server <b>270</b> may not need to request the key from HSS/AAA server <b>260</b> and may not provide key request <b>440</b> (e.g., since platform server <b>270</b> stores the key corresponding to the key ID and the key is unexpired).</p>
+<p id="p-0056" num="0055">In some implementations, key response <b>450</b> may include an IMPI of user device <b>210</b> corresponding to the key ID included in key request <b>440</b>. In some implementations, platform server <b>270</b> may perform service authorization function <b>455</b> based on receiving key response <b>450</b> or based on determining that platform server <b>270</b> is storing an unexpired key corresponding to the key ID. In some implementations, platform server <b>270</b> may determine whether user device <b>210</b> is authorized to access a service (e.g., a content delivery service) based on a UICCID of user device <b>210</b>, the IMPI of user device <b>210</b> included in key response <b>450</b>, and/or based on some other identifier of user device <b>210</b> (e.g., a device ID, a serial number, a telephone number, a subscriber identity module (SIM) card number, and/or some other identifier). For example, platform server <b>270</b> may store a list of user device identifiers that are authorized to access the service. In some implementations, platform server <b>270</b> may identify the identifier(s) of user device <b>210</b> based on information included in session token request <b>435</b>. In some implementations (e.g., when platform server <b>270</b> determines that user device <b>210</b> is not authorized to access the service), platform server <b>270</b> may provide a response to user device <b>210</b> to indicate that user device <b>210</b> is not authorized to access the service.</p>
+<p id="p-0057" num="0056">If, on the other hand, platform server <b>270</b> determines that user device <b>210</b> is authorized to access the service, platform server <b>270</b> may perform hash value generation function <b>460</b>. In some implementations, platform server <b>270</b> may generate a hash value of security input <b>415</b> using the key corresponding to the key ID and using a particular hash generation algorithm. In some implementations, platform server <b>270</b> may select the particular hash generation algorithm based on the key ID and/or based on a format of the key (e.g., based on a quantity of characters in the key, a format of an arrangement of the characters in the key, etc.).</p>
+<p id="p-0058" num="0057">In some implementations, platform server <b>270</b> may determine whether the hash value, included in session token request <b>435</b>, matches the hash value generated by platform server <b>270</b>. In some implementations, platform server <b>270</b> may provide an indication to user device <b>210</b> that session token request <b>435</b> has been denied when the hash value, included in session token request <b>435</b>, does not match the hash value generated by platform server <b>270</b>.</p>
+<p id="p-0059" num="0058">If, on the other hand, the hash value, included in session token request <b>435</b>, matches the hash value generated by platform server <b>270</b>, platform server <b>270</b> may perform session token generation function <b>465</b> to generate session token <b>470</b> (e.g., a session token having similar information as session token <b>405</b>, including an expiration time period). In some implementations, platform server <b>270</b> may provide session token <b>470</b> to user device <b>210</b> and may further establish session <b>475</b> based on providing session token <b>470</b>. In some implementations, platform server <b>270</b> may provide session token <b>470</b> via a secure channel and may encrypt session token <b>470</b> to prevent an unauthorized user from receiving and/or using session token <b>470</b>.</p>
+<p id="p-0060" num="0059">In some implementations, user device <b>210</b> may use session token <b>470</b> to request a session with platform server <b>270</b> at a later time and prior to an expiration of session token <b>470</b>. In some implementations, user device <b>210</b> and platform server <b>270</b> may communicate via established session <b>475</b> such that user device <b>210</b> may access the service (e.g., request content, update account information, update subscription information, etc.).</p>
+<p id="p-0061" num="0060">While a particular series of operations and/or data flows have been described above with regard to <figref idref="DRAWINGS">FIG. 4</figref>, the order of the operations and/or data flows may be modified in other implementations. Further, non-dependent operations may be performed in parallel. For example, platform server <b>270</b> may perform service authorization function <b>455</b> at a different time than described above. For example, platform server <b>270</b> may perform service authorization function <b>455</b> after receiving session token <b>405</b>. In the situation where platform server <b>270</b> performs service authorization function <b>455</b> after receiving session token <b>405</b>, platform server <b>270</b> may perform session token authentication function <b>410</b> when user device <b>210</b> is authorized to access the service (or provide user device <b>210</b> with an indication that user device <b>210</b> is not authorized to access the service when platform server <b>270</b> determines that user device <b>210</b> is not authorized to access the service.</p>
+<p id="p-0062" num="0061"><figref idref="DRAWINGS">FIG. 5</figref> illustrates an example data structure <b>500</b> that may be stored by one or more servers, such as platform server <b>270</b>. In some implementations, data structure <b>500</b> may be stored in a memory of platform server <b>270</b>. In some implementations, data structure <b>500</b> may be stored in a memory separate from, but accessible by platform server <b>270</b>. A particular instance of data structure <b>500</b> may contain different information and/or fields than another instance of data structure <b>500</b>. In some implementations, each row of data structure <b>500</b> may identify information included in a session token. In some implementations, platform server <b>270</b> may authenticate a session token, received from user device <b>210</b>, based on information stored by data structure <b>500</b>.</p>
+<p id="p-0063" num="0062">As shown in <figref idref="DRAWINGS">FIG. 5</figref>, data structure <b>500</b> may include session identifier field <b>510</b>, expiry timestamp field <b>520</b>, previous receipt time field <b>530</b>, idle expiry time period field <b>540</b>, session key field <b>550</b>, secure storage key field <b>560</b>, secure storage value field <b>570</b>, and partner customer number (PCN) field <b>580</b>.</p>
+<p id="p-0064" num="0063">Session identifier field <b>510</b> may include a string of characters to identify a session token. Session identifier field <b>510</b> may store a unique string of characters such that no two strings of characters are alike. Additionally, while the example shown in <figref idref="DRAWINGS">FIG. 5</figref> shows the session identifier field as four numeric digits (e.g., &#x201c;1234&#x201d;), in practice, session identifier field may store any character string including alphanumeric characters, or some other characters, of any length.</p>
+<p id="p-0065" num="0064">Expiry timestamp field <b>520</b> may include information identifying a time at which a session token, associated with the corresponding session identifier, will expire (e.g., after which platform server <b>270</b> will fail to authenticate the session token). For example, assume that platform server <b>270</b> receives a session token associated with the session identifier &#x201c;1234&#x201d; on 1/1/01, at 23:05:00. Platform server <b>270</b> may identify that the session token is expired since the time of receipt of the session token is after the expiry timestamp associated with the session token.</p>
+<p id="p-0066" num="0065">Previous receipt time field <b>530</b> may include information identifying a time at which a session token, associated with the corresponding session identifier, was previously received. For example, assume that platform server <b>270</b> received a session token associated with the session identifier &#x201c;1234&#x201d; on 1/1/01 at 15:15:00. Previous receipt time field <b>530</b> may store 1/1/01, 15:15:00 as the previous receipt time. The information in previous receipt time field <b>530</b> may be used to identify whether the session token has expired with respect to an idle expiry time period associated with the session token.</p>
+<p id="p-0067" num="0066">Idle expiry time period <b>540</b> may include information identifying a time period in which a session token, associated with the corresponding session identifier, will expire based on inactivity of the session token. For example, as shown in <figref idref="DRAWINGS">FIG. 5</figref>, the idle expiry time period associated with the session token with the session identifier &#x201c;1234&#x201d; is 15 minutes. Platform server <b>270</b> may identify whether the idle expiry time period has been exceeded based on information associated with previous receipt time field <b>530</b> and idle expiry time period field <b>540</b>. For example, assume that platform server <b>270</b> receives the session token associated with session identifier &#x201c;1234&#x201d; on 1/1/01 at 15:31:00. Based on information associated with previous receipt time field <b>530</b> (e.g., 1/1/01, 15:15:00), platform server <b>270</b> may determine a time period (e.g., an idle time period) of 16 minutes (e.g., the time difference between the receipt time of the session token and the time information stored by previous receipt time field <b>530</b>). Platform server <b>270</b> may further identify that the idle time period (i.e., 16 minutes) exceeds the time period stored by idle expiry time period <b>540</b> (i.e., 15 minutes). Based on identifying that the idle time period exceeds the time period stored by idle expiry time period <b>540</b>, platform server <b>270</b> may fail to authenticate the session token.</p>
+<p id="p-0068" num="0067">Session key field <b>550</b> may include information identifying a session key (e.g., a 128-bit AES key, and/or some other key) stored by a session token, associated with the corresponding session identifier. In some implementations, the session key may be generated based on a private key associated with platform server <b>270</b>. Additionally, or alternatively, the session key may be generated using some other technique. As shown in <figref idref="DRAWINGS">FIG. 5</figref>, session key field <b>550</b> may store the key &#x201c;89d810e8855ace682d1843d8cb128fe4&#x201d; associated with the session token with session identifier &#x201c;1234.&#x201d; As described above, the session key may be used to generate, encrypt, and/or decrypt a secure storage key.</p>
+<p id="p-0069" num="0068">Secure storage key field <b>560</b> may include information identifying a secure storage key (e.g., a 128-bit AES key, and/or some other key) stored by a session token associated with the corresponding session identifier. In some implementations, the secure storage key may be generated, encrypted, and/or decrypted by a session key, as described above. As shown in <figref idref="DRAWINGS">FIG. 5</figref>, secure storage key field <b>560</b> may store the key &#x201c;4915598f55e5d7a0daca94fa1f0a63f7&#x201d; associated with the session token with the session identifier &#x201c;1234.&#x201d; The secure storage key may be used to secure a digital secure storage (e.g., using a secure digital protocol and/or some other protocol) storing a value (e.g., an HMAC value or some other value).</p>
+<p id="p-0070" num="0069">Secure storage value field <b>570</b> may include information identifying a value stored by a secure storage of a session token associated with the corresponding session identifier. As described have, platform server <b>270</b> may determine the value based on an HMAC-MD5 algorithm, an HMAC-SHA1 algorithm, and/or some other algorithm with inputs, such as the private key associated with platform server <b>270</b> or some other value. Additionally, or alternatively, secure storage value field <b>570</b> may include information identifying some other value based on some other hash value generation algorithm and/or technique.</p>
+<p id="p-0071" num="0070">PCN field <b>580</b> may include information identifying an account associated with a user of platform server <b>270</b> (e.g., an account for a subscriber of a service, such as a content delivery service). In the example shown in <figref idref="DRAWINGS">FIG. 5</figref>, PCN field <b>580</b> may store the character string &#x201c;487516&#x201d; associated with the session token with session identifier &#x201c;1234.&#x201d; In some implementations, platform server <b>270</b> may identify information for the account associated with the PCN (i.e., &#x201c;487516&#x201d;) based on receiving and authenticating the session token with the session identifier &#x201c;1234.&#x201d;</p>
+<p id="p-0072" num="0071">While particular fields are shown in a particular format in data structure <b>500</b>, in practice, data structure <b>500</b> may include additional fields, fewer fields, different fields, or differently arranged fields than are shown in <figref idref="DRAWINGS">FIG. 5</figref>.</p>
+<p id="p-0073" num="0072"><figref idref="DRAWINGS">FIG. 6</figref> illustrates an example data structure <b>600</b> that may be stored by one or more servers, such as HSS/AAA server <b>260</b>. In some implementations, data structure <b>600</b> may be stored in a memory of HSS/AAA server <b>260</b>. In some implementations, data structure <b>600</b> may be stored in a memory separate from, but accessible by HSS/AAA server <b>260</b>. In some implementations, a portion of data structure <b>600</b> may be stored by some other device, such as user device <b>210</b> and/or platform server <b>270</b>. In some implementations, each row of data structure <b>600</b> may store a key corresponding to a key ID, an app ID, and a user device ID. A particular instance of data structure <b>600</b> may contain different information and/or fields than another instance of data structure <b>600</b>.</p>
+<p id="p-0074" num="0073">As shown in <figref idref="DRAWINGS">FIG. 6</figref>, data structure <b>600</b> may include user device ID field <b>610</b>, app ID field <b>620</b>, key ID field <b>630</b>, key field <b>640</b>, and expiry time period field <b>650</b>.</p>
+<p id="p-0075" num="0074">User device ID field <b>610</b> may store information identifying a particular user device <b>210</b>. For example, user device ID field <b>610</b> may include an identifier of user device <b>210</b>, such as a UICCID, an IMPI, a serial number, and/or some other identifier.</p>
+<p id="p-0076" num="0075">App ID field <b>620</b> may store information identifying an application that user device <b>210</b> may use to access a service via platform server <b>270</b>. For example, app ID field <b>620</b> may store an ID of a video delivery application, an audio delivery application, an account management application, and/or some other application associated with the service. In some implementations, app ID field <b>620</b> may include a string of characters having any length and any format.</p>
+<p id="p-0077" num="0076">Key ID field <b>630</b> may store an identifier of a key ID that may be used to identify a particular key stored by user device <b>210</b> and HSS/AAA server <b>260</b> (e.g., a shared key). In some implementations, key ID field <b>630</b> may include a string of characters having any length and any format.</p>
+<p id="p-0078" num="0077">Key field <b>640</b> may store a key that user device <b>210</b> and/or platform server <b>270</b> may use to generate a hash value (e.g., a hash value of a security input). In some implementations, key field <b>640</b> may store a 128-bit AES key, a private key, and/or some other type of cryptographic key. In some implementations, user device <b>210</b> and HSS/AAA server <b>260</b> may store the same key corresponding to a particular key ID so that platform server <b>270</b> may receive the key from HSS/AAA server <b>260</b> and generate the hash value using the same key used by user device <b>210</b>.</p>
+<p id="p-0079" num="0078">Expiry time period field <b>650</b> may identify a time period that a particular key may be stored by user device <b>210</b> and/or platform server <b>270</b> before the key expires. For example, assume that platform server <b>270</b> stores the key at 10:00 and that the key has an expiry period of 5 minutes. Given this assumption, platform server <b>270</b> may discard the key at 10:05 or may determine that the key is expired at 10:05. As described above, platform server <b>270</b> may request a key from HSS/AAA server <b>260</b> by providing a key ID when platform server <b>270</b> does not store the key or when platform server <b>270</b> stores an expired key.</p>
+<p id="p-0080" num="0079">In some implementations, HSS/AAA server <b>260</b> may provide a particular key ID to user device <b>210</b> based on a user device ID and an app ID included in key ID request <b>420</b>. Further, HSS/AAA server <b>260</b> may provide a particular key based on a key ID included in key request <b>440</b>. As an example, assume that HSS/AAA server <b>260</b> receives (e.g., as part of key ID request <b>425</b>) a UICCID of UICC 123 and an IMPI of IMPI 123. Further, assume that HSS/AAA server <b>260</b> receives an app ID of A123. Given these assumptions, HSS/AAA server <b>260</b> may select Key ID 1, based on information stored by data structure <b>600</b>, and may provide key ID 1 to user device <b>210</b>. In some implementations, user device <b>210</b> may receive key ID 1 and select key 1 (e.g., the key corresponding to key ID 1). As a result, user device <b>210</b> may select key 1 without HSS/AAA server <b>260</b> transmitting key 1 to user device <b>210</b> (e.g., to reduce the possibility of the key being received by an unauthorized device).</p>
+<p id="p-0081" num="0080">As another example, assume that HSS/AAA server <b>260</b> receives (e.g., as part of key request <b>440</b>) key ID 1 from platform server <b>270</b>. Further, assume that HSS/AAA server <b>260</b> authorizes platform server <b>270</b> to receive a corresponding key (e.g., based on performing request authorization function <b>445</b>). Given these assumptions, HSS/AAA server <b>260</b> may select key 1 and may provide key 1 to platform server <b>270</b>.</p>
+<p id="p-0082" num="0081">While particular fields are shown in a particular format in data structure <b>600</b>, in practice, data structure <b>600</b> may include additional fields, fewer fields, different fields, or differently arranged fields than are shown in <figref idref="DRAWINGS">FIG. 6</figref>.</p>
+<p id="p-0083" num="0082"><figref idref="DRAWINGS">FIG. 7</figref> illustrates a flowchart of an example process <b>700</b> for generating a session token and establishing a session with a user device. In some implementations, process <b>700</b> may be performed by one or more components of platform server <b>270</b>. In some implementations, some or all of blocks of process <b>700</b> may be performed by one or more components of another device in environment <b>200</b> (e.g., HSS/AAA server <b>260</b>), or a group of devices including or excluding platform server <b>270</b>.</p>
+<p id="p-0084" num="0083">As shown in <figref idref="DRAWINGS">FIG. 7</figref>, process <b>700</b> may include receiving a session token (block <b>710</b>). For example, as described above with respect to session token <b>405</b>, platform server <b>270</b> may receive session token <b>405</b> from user device <b>210</b> as part of a session request. In some implementations, platform server <b>270</b> may perform session token authentication function <b>410</b>, as described above, to authentication session token <b>405</b> (e.g., to determine whether session token <b>405</b> is authentic, valid, and/or unexpired, and to determine whether user device <b>210</b> is authorized to communicate with platform server <b>270</b>). In <figref idref="DRAWINGS">FIG. 7</figref>, assume that platform server <b>270</b> does not authenticate session token <b>405</b> (e.g., when session token <b>405</b> is expired and/or when a value, calculated by platform server <b>270</b> based on parameters of the session token, does not match a value stored by a secure storage of platform server <b>270</b>). Given this assumption, user device <b>210</b> may request another session token from platform server <b>270</b>.</p>
+<p id="p-0085" num="0084">Process <b>700</b> may also include providing a security input and an application ID (block <b>720</b>). For example, as described above with respect to security input <b>415</b> and app ID <b>416</b>, platform server <b>270</b> may provide security input <b>415</b> and app ID <b>416</b> to user device <b>210</b> when platform server <b>270</b> does not authenticate security token <b>405</b>. In some implementations, user device <b>210</b> may provide app ID <b>416</b> and an identifier of user device <b>210</b> to HSS/AAA server <b>260</b> and may receive a key ID corresponding to the app ID and the identifier of user device <b>210</b>. As described above, user device <b>210</b> may select a key corresponding to the key ID and may generate a hash value of security input <b>415</b> using the key.</p>
+<p id="p-0086" num="0085">Process <b>700</b> may further include receiving a key ID and a hash value (block <b>730</b>). For example, platform server <b>270</b> may receive the key ID and the hash value from user device <b>210</b> when user device <b>210</b> generates the hash value of security input <b>415</b> using the key corresponding to the key ID.</p>
+<p id="p-0087" num="0086">Process <b>700</b> may also include providing the key ID to the HSS/AAA server and receiving a key (block <b>740</b>). For example, as described above with respect to key request <b>440</b>, platform server <b>270</b> may provide the key ID and a request to receive the key corresponding to the key ID. Additionally, or alternatively, platform server <b>270</b> may provide authorization information that HSS/AAA server <b>260</b> may use to authorize platform server <b>270</b> to receive the key (e.g., a device ID of platform server <b>270</b>, a login ID, a password, a time-based token, a private key, an IP address via which the request to receive the key is provided, or the like). In some implementations, HSS/AAA server <b>260</b> may authorize platform server <b>270</b> to receive the key based on the authorization information. In some implementations, platform server <b>270</b> may receive the key and information identifying an expiry time period (e.g., a time period that identifies a length of time that the key may be valid when stored by platform server <b>270</b>). In some implementations, platform server <b>270</b> may store the key for a length of time corresponding to the expiry time period and may discard the key when the key has expired. In some implementations, block <b>740</b> may be omitted when platform server <b>270</b> stores the key corresponding to the key ID and when the key is unexpired.</p>
+<p id="p-0088" num="0087">Process <b>700</b> may further include calculating a hash value of the security input based on the key (block <b>750</b>). For example, as described above with respect to hash value generation function <b>460</b>, platform server <b>270</b> may generate a hash value of security input <b>415</b> using the key corresponding to the key ID and using a particular hash generation algorithm. In some implementations, platform server <b>270</b> may select the particular hash generation algorithm based on the key ID. In some implementations, platform server <b>270</b> may determine that the hash value, generated by platform server <b>270</b>, matches the hash value provided by user device <b>210</b>.</p>
+<p id="p-0089" num="0088">Process <b>700</b> may also include generating a session token (block <b>760</b>) and establishing a session with the user device (block <b>770</b>). For example, as described above with respect to session token generation function <b>465</b>, platform server <b>270</b> may generate session token <b>470</b> (e.g., a session token having similar information as session token <b>405</b>, including an expiration time period). In some implementations, platform server <b>270</b> may provide session token <b>470</b> to user device <b>210</b> and may further establish session <b>475</b> based on providing session token <b>470</b>. In some implementations, user device <b>210</b> may store session token <b>470</b> to request a session with platform server <b>270</b> at a later time and prior to an expiration of session token <b>470</b>. In some implementations, user device <b>210</b> and platform server <b>270</b> may communicate via established session <b>475</b> such that user device <b>210</b> may access the service (e.g., request content, update account information, update subscription information, etc.).</p>
+<p id="p-0090" num="0089">While <figref idref="DRAWINGS">FIG. 7</figref> shows process <b>700</b> as including a particular quantity and arrangement of blocks, in some implementations, process <b>700</b> may include fewer blocks, additional blocks, or a different arrangement of blocks. Additionally, or alternatively, some of the blocks may be performed in parallel.</p>
+<p id="p-0091" num="0090"><figref idref="DRAWINGS">FIG. 8</figref> illustrates an example implementation as described herein. As shown in <figref idref="DRAWINGS">FIG. 8</figref>, user device <b>210</b> may provide a session request to platform server <b>270</b>. In some implementations, the session request may include a session token. Alternatively, the session request may not include a session token. In <figref idref="DRAWINGS">FIG. 8</figref>, assume that the session request does not include a session token, or that the session request includes an expired and/or invalid session token. Given this assumption, platform server <b>270</b> may provide a security input and/or an app ID to user device <b>210</b>. In some implementations, user device <b>210</b> may provide a key ID request to HSS/AAA server <b>260</b> to request a key ID corresponding to a device ID of user device <b>210</b> and the app ID.</p>
+<p id="p-0092" num="0091">In some implementations, user device <b>210</b> may receive the key ID, select a key corresponding to the key ID, generate a hash value of the security input based on the key ID, and provide the hash value of the security input to platform server <b>270</b>. In some implementations, platform server <b>270</b> may receive the hash value and the key ID and may request the key, corresponding to the key ID, from HSS/AAA server <b>260</b>. In some implementations, HSS/AAA server <b>260</b> may provide the key, corresponding to the key ID, based on authorizing platform server <b>270</b> to receive the key (e.g., based on authorization information provided by platform server <b>270</b>). In some implementations, platform server <b>270</b> may generate a hash value of the security input using the key and may establish a session when the hash value, generated by platform server <b>270</b>, matches the hash value provided by user device <b>210</b>.</p>
+<p id="p-0093" num="0092">In some implementations, platform server <b>270</b> may establish a session to transmit a data flow between user device <b>210</b> and content server <b>280</b> (e.g., in the context of providing user device <b>210</b> with content stored by content server <b>280</b> as part of a content delivery service). Additionally, or alternatively, user device <b>210</b> may communicate with platform server <b>270</b> via the established session to perform some other task associated with the content delivery service (update account information, update subscription information, etc.). In some implementations, platform server <b>270</b> may provide a session token that user device <b>210</b> may later use to request a session with platform server <b>270</b>.</p>
+<p id="p-0094" num="0093">While a particular example is shown in <figref idref="DRAWINGS">FIG. 8</figref>, it will be apparent that the above description is merely an example implementation. Other examples are possible and may differ from what was described with regard to <figref idref="DRAWINGS">FIG. 8</figref>.</p>
+<p id="p-0095" num="0094">As described above, user device <b>210</b> may access service via platform server <b>270</b> without providing login information. Further, the content delivery service may remain secure from unauthorized users who may have knowledge of the UICCID of user devices <b>210</b> that may be associated with a service subscription. As a result, user experience may be improved by allowing a user to access the service without providing login information, while preventing unauthorized users from accessing the service.</p>
+<p id="p-0096" num="0095">The foregoing description provides illustration and description, but is not intended to be exhaustive or to limit the possible implementations to the precise form disclosed. Modifications and variations are possible in light of the above disclosure or may be acquired from practice of the implementations.</p>
+<p id="p-0097" num="0096">It will be apparent that different examples of the description provided above may be implemented in many different forms of software, firmware, and hardware in the implementations illustrated in the figures. The actual software code or specialized control hardware used to implement these examples is not limiting of the implementations. Thus, the operation and behavior of these examples were described without reference to the specific software code&#x2014;it being understood that software and control hardware can be designed to implement these examples based on the description herein.</p>
+<p id="p-0098" num="0097">Even though particular combinations of features are recited in the claims and/or disclosed in the specification, these combinations are not intended to limit the disclosure of the possible implementations. In fact, many of these features may be combined in ways not specifically recited in the claims and/or disclosed in the specification. Although each dependent claim listed below may directly depend on only one other claim, the disclosure of the possible implementations includes each dependent claim in combination with every other claim in the claim set.</p>
+<p id="p-0099" num="0098">No element, act, or instruction used in the present application should be construed as critical or essential unless explicitly described as such. Also, as used herein, the article &#x201c;a&#x201d; is intended to include one or more items and may be used interchangeably with &#x201c;one or more.&#x201d; Where only one item is intended, the term &#x201c;one&#x201d; or similar language is used. Further, the phrase &#x201c;based on&#x201d; is intended to mean &#x201c;based, at least in part, on&#x201d; unless explicitly stated otherwise.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A method comprising:
+<claim-text>receiving, by a first device, a first session token from a second device;</claim-text>
+<claim-text>determining, by the first device, that the first session token is expired or invalid;</claim-text>
+<claim-text>providing, by the first device and to the second device, a security input and an identifier of an application used by the second device, based on determining that the first session token is expired or invalid,
+<claim-text>the identifier of the application being different than a device identifier of the second device,</claim-text>
+<claim-text>the security input and the identifier of the application causing the second device to:
+<claim-text>provide a key identifier (ID) request to a third device,</claim-text>
+<claim-text>receive, from the third device and based on the key ID request, a key ID response that includes a key corresponding to the key ID, and</claim-text>
+<claim-text>generate a first hash value of the security input using the key corresponding to the key ID;</claim-text>
+</claim-text>
+</claim-text>
+<claim-text>receiving, by the first device and from the second device, a session token request that includes the key ID and the first hash value;</claim-text>
+<claim-text>providing, by the first device and to the third device, a key request that includes the key ID;</claim-text>
+<claim-text>receiving, by the first device and from the third device based on the key request, a key response that includes the key corresponding to the key ID;</claim-text>
+<claim-text>generating, by the first device, a second hash value using the key corresponding to the key ID provided in the key response;</claim-text>
+<claim-text>determining, by the first device, that the first hash value matches the second hash value;</claim-text>
+<claim-text>generating, by the first device, a second session token based on determining that the first hash value matches the second hash value;</claim-text>
+<claim-text>providing, by the first device, the second session token to the second device;</claim-text>
+<claim-text>receiving, by the first device and from the second device, a request to establish a session with the first device,
+<claim-text>the request including the second session token; and</claim-text>
+</claim-text>
+<claim-text>establishing, by the first device, a session with the second device based on the request and the second session token.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The method of <claim-ref idref="CLM-00001">claim 1</claim-ref>, where the second device stores the second session token.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The method of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising:
+<claim-text>receiving a request for content from the second device via the established session; and</claim-text>
+<claim-text>providing the content to the second device via the established session.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The method of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising:
+<claim-text>receiving an update to account information or subscription information from the second device via the established session; and</claim-text>
+<claim-text>updating the account information or the subscription information.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The method of <claim-ref idref="CLM-00001">claim 1</claim-ref>, where determining that the first session token is expired or invalid is based on an expiry timestamp included in the first session token or based on a value stored by a secure storage included in the first session token.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The method of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising:
+<claim-text>determining that the second device is authorized to communicate with the first device based on the device identifier of the second device,
+<claim-text>where establishing the session is based on determining that the second device is authorized to communicate with the first device.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The method of <claim-ref idref="CLM-00001">claim 1</claim-ref>,
+<claim-text>where the application is used by the second device to communicate with the first device.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The method of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising:
+<claim-text>notifying the second device that the session cannot be established based on determining that the first hash value does not match the second hash value.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. A system comprising:
+<claim-text>a first device to:
+<claim-text>receive a first session token from a second device;</claim-text>
+<claim-text>determine that the first session token is expired or invalid;</claim-text>
+<claim-text>provide, to the second device, a security input and an identifier of an application used by the second device, based on determining that the first session token is expired or invalid,
+<claim-text>the identifier of the application being different than a device identifier of the second device,</claim-text>
+</claim-text>
+<claim-text>the security input and the identifier of the application causing the second device to:
+<claim-text>provide a key identifier (ID) request to a third device,</claim-text>
+<claim-text>receive, from the third device and based on the key ID request, a key ID response that includes a key corresponding to the key ID, and</claim-text>
+<claim-text>generate a first hash value of the security input using the key corresponding to the key ID;</claim-text>
+</claim-text>
+<claim-text>receive, from the second device, a session token request that includes the key ID and the first hash value;</claim-text>
+<claim-text>provide, to the third device, a key request that includes the key ID;</claim-text>
+<claim-text>receive, from the third device and based on the key request, a key response that includes the key corresponding to the key ID;</claim-text>
+<claim-text>generate a second hash value using the key corresponding to the key ID provided in the key response;</claim-text>
+<claim-text>determine that the first hash value matches the second hash value;</claim-text>
+<claim-text>generate a second session token based on determining that the first hash value matches the second hash value;</claim-text>
+<claim-text>provide the second session token to the second device;</claim-text>
+<claim-text>receive, from the second device, a request to establish a session with the first device,
+<claim-text>the request including the second session token; and</claim-text>
+</claim-text>
+<claim-text>establish a session with the second device based on the request and the second session token.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The system of <claim-ref idref="CLM-00009">claim 9</claim-ref>, where the second device stores the second session token.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The system of <claim-ref idref="CLM-00009">claim 9</claim-ref>, where the first device is further to:
+<claim-text>receive an update to account information or subscription information from the second device via the established session; and</claim-text>
+<claim-text>update the account information or the subscription information.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The system of <claim-ref idref="CLM-00009">claim 9</claim-ref>, where, when determining that the first session token is expired or invalid, the first device is to:
+<claim-text>determine that the first session token is expired or invalid based on an expiry timestamp included in the first session token or based on a value stored by a secure storage included in the first session token.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The system of <claim-ref idref="CLM-00009">claim 9</claim-ref>, where the first device is further to:
+<claim-text>determine that the second device is authorized to communicate with the first device based on the device identifier of the second device,</claim-text>
+<claim-text>where, when providing the security input and the identifier of the application to the second device, the first device is to provide the security input and the identifier of the application to the second device based on determining that the second device is authorized to communicate with the first device.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The system of <claim-ref idref="CLM-00009">claim 9</claim-ref>, where the application is used by the second device to communicate with the first device.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The system of <claim-ref idref="CLM-00009">claim 9</claim-ref>, where the first device is further to:
+<claim-text>notify the second device that the session cannot be established based on determining that the first hash value does not match the second hash value.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. A non-transitory computer-readable medium for storing instructions, the instructions comprising:
+<claim-text>a plurality of instructions which, when executed by one or more processors associated with a first device, cause the one or more processors to:
+<claim-text>receive a first session token from a second device;</claim-text>
+<claim-text>determine that the first session token is expired or invalid;</claim-text>
+<claim-text>provide, to the second device, a security input and an identifier of an application used by the second device, based on determining that the first session token is expired or invalid,
+<claim-text>the identifier of the application being different than a device identifier of the second device,</claim-text>
+<claim-text>the security input and the identifier of the application causing the second device to:
+<claim-text>provide a key identifier (ID) request to a third device,</claim-text>
+<claim-text>receive, from the third device and based on the key ID request, a key ID response that includes a key corresponding to the key ID, and</claim-text>
+<claim-text>generate a first hash value of the security input using the key corresponding to the key ID;</claim-text>
+</claim-text>
+</claim-text>
+<claim-text>receive, from the second device, a session token request that includes the key ID and the first hash value;</claim-text>
+<claim-text>provide, to the third device, a key request that includes the key ID;</claim-text>
+<claim-text>receive, from the third device and based on the key request, a key response that includes the key corresponding to the key ID;</claim-text>
+<claim-text>generate a second hash value using the key corresponding to the key ID provided in the key response;</claim-text>
+<claim-text>determine whether the first hash value matches the second hash value;</claim-text>
+<claim-text>generate a second session token based on determining that the first hash value matches the second hash value;</claim-text>
+<claim-text>provide the second session token to the second device;</claim-text>
+<claim-text>receive, from the second device, a request to establish a session with the first device,
+<claim-text>the request including the second session token; and</claim-text>
+</claim-text>
+<claim-text>establish a session with the second device based on the request and the second session token.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. The non-transitory computer-readable medium of <claim-ref idref="CLM-00016">claim 16</claim-ref>, where the plurality of instructions further cause the one or more processors to:
+<claim-text>notify the second device that the session cannot be established based on determining that the first hash value does not match the second hash value.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. The non-transitory computer-readable medium of <claim-ref idref="CLM-00016">claim 16</claim-ref>, where the plurality of instructions, that cause the one or more processors to determine that the first session token is expired or invalid, cause the one or more processors to:
+<claim-text>determine that the first session token is expired or invalid based on an expiry timestamp included in the first session token or based on a value stored by a secure storage included in the first session token.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. The non-transitory computer-readable medium of <claim-ref idref="CLM-00016">claim 16</claim-ref>, where the application is used by the second device to communicate with the first device.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. The non-transitory computer-readable medium of <claim-ref idref="CLM-00016">claim 16</claim-ref>, where the plurality of instructions further cause the one or more processors to:
+<claim-text>receive an update to account information or subscription information from the second device via the established session; and</claim-text>
+<claim-text>update the account information or the subscription information.</claim-text>
+</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

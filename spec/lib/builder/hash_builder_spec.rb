@@ -83,3 +83,15 @@ describe 'Saxerator (default) hash format' do
     end
   end
 end
+
+describe 'Saxerator elements with both text and element children format' do
+  let(:xml){ fixture_file('mixed_text_hash.xml') }
+  subject(:claim) { Saxerator.parser(xml).for_tag(:claim).first }
+
+  specify do
+    expect(claim['claim-text'].map(&:class))
+      .to match_array([Saxerator::Builder::StringElement, Saxerator::Builder::HashElement])
+  end
+
+  specify{ expect(claim['claim-text'].first).to eq "1. A method comprising:\n" }
+end

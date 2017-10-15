@@ -16,14 +16,14 @@ module Saxerator
         @children << node
       end
 
-      def to_s
-        StringElement.new(@children.join, @name, @attributes)
+      def to_s(children: @children)
+        StringElement.new(children.join, @name, @attributes)
       end
 
-      def to_hash
+      def to_hash(children: @children)
         hash = HashElement.new(@name, @attributes)
 
-        @children.each do |child|
+        children.each do |child|
           name = child.name
           element = child.block_variable
 
@@ -54,8 +54,25 @@ module Saxerator
       end
 
       def block_variable
-        return to_s if @text
-        to_hash
+        text_children = []
+        hash_children = []
+        @children.each do |child|
+          case
+          when child.kind_of?(String)
+            text_children << child
+          when child.kind_of?(Saxerator::Builder::HashBuilder)
+            hash_children << child
+          else
+            # TODO ?
+          end
+        end
+        s = to_s(children: text_children)
+        h = to_hash(children: hash_children)
+        if s.empty? || h.empty?
+          return s.empty? ? h : s
+        else
+          [s, h]
+        end
       end
 
       def normalize_attributes(attributes)
