@@ -5,19 +5,26 @@ module Saxerator
         @stack = []
         @config = config
         @block = block
+        @doc_frag_active = false
       end
 
       def start_element(name, attrs = [])
-        @stack.push @config.output_type.new(@config, name, Hash[attrs])
+        @doc_frag_active = true if @config.document_fragment_tags.include?(name)
+        if @doc_frag_active
+          @stack.push Saxerator::Builder::DocumentFragmentBuilder.new(@config, name, Hash[attrs])
+        else
+          @stack.push @config.output_type.new(@config, name, Hash[attrs])
+        end
       end
 
       def end_element(_)
-        if @stack.size > 1
-          last = @stack.pop
+        last = @stack.pop
+        if @stack.size > 0
           @stack[-1].add_node last
         else
-          @block.call(@stack.pop.block_variable)
+          @block.call(last.block_variable)
         end
+        @doc_frag_active = false if @config.document_fragment_tags.include?(last.name)
       end
 
       def characters(string)

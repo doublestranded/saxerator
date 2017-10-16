@@ -36,5 +36,13 @@ module Saxerator
         builder
       end
     end
+
+    class DocumentFragmentBuilder < XmlBuilder
+      def block_variable
+        builder = REXML::Document.new
+        to_xml(builder)
+        builder
+      end
+    end
   end
 end

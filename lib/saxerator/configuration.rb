@@ -2,6 +2,7 @@ module Saxerator
   class Configuration
     attr_writer :hash_key_generator
     attr_reader :output_type
+    attr_accessor :document_fragment_tags
 
     ADAPTER_TYPES = %i[ox nokogiri rexml oga].freeze
 
@@ -10,6 +11,7 @@ module Saxerator
       @output_type = :hash
       @put_attributes_in_hash = false
       @ignore_namespaces = false
+      @document_fragment_tags = []
     end
 
     def adapter=(name)
