@@ -223,5 +223,19 @@ RSpec.describe Saxerator do
         expect(parser.all.to_hash).to include(bar: 'baz', foo: 'bar')
       end
     end
+
+    context 'document fragment preservation' do
+      let(:xml) { fixture_file('mixed_text_hash.xml') }
+      subject(:parser) do
+        Saxerator.parser(xml) do |config|
+          config.put_attributes_in_hash!
+          config.document_fragment_tags = ['abstract']
+        end
+      end
+
+      it 'preserves specified tags as document fragments' do
+        expect(parser.for_tag(:abstract).first.class).to eq REXML::Document
+      end
+    end
   end
 end
